@@ -15,10 +15,7 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 <tx:annotation-driven />
-    <context:component-scan base-package="repositories" />
-    <context:component-scan base-package="service" />
-    <context:component-scan base-package="Controllers" />
-
+    <context:component-scan base-package="cigma.pfe" />
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
     <property name="persistenceUnitName" value="unit_clients" />
             </bean>

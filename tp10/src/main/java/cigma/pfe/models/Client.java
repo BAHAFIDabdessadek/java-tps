@@ -1,7 +1,8 @@
-package cigma.pfe.Moderls;
+package cigma.pfe.models;
 import lombok.*;
 import javax.persistence.*;
 @Data
+@AllArgsConstructor
 @Entity(name = "Tclients")
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Client {

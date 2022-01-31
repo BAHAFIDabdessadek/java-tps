@@ -1,12 +1,12 @@
 package cigma.pfe.repositories;
 
 import cigma.pfe.models.Client;
-import net.bytebuddy.implementation.bind.annotation.BindingPriority;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
 import javax.transaction.Transactional;
 import java.util.List;
+
 @Repository
 public class ClientRepositoryImp implements ClientRepository{
 
