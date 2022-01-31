@@ -9,7 +9,7 @@ import javax.persistence.PrimaryKeyJoinColumn;
 @Entity
 @Data
 //@PrimaryKeyJoinColumn(name="normal_id")
-@DiscriminatorValue("Normal")
+//@DiscriminatorValue("Normal")
 public class ClientNormal extends Client{
 
     private int importanceLevel;
