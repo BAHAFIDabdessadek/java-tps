@@ -49,6 +49,7 @@ public class MonApplication {
 
  */
 
+        /*
         // PART OF FACTURE
 
         Facture facture1 = new Facture( LocalDate.of(2022,02,15),400);
@@ -71,6 +72,9 @@ public class MonApplication {
 
         // Find by Date
         ftr.Find(LocalDate.of(2022,02,14)).stream().forEach(i-> System.out.println(i));
+
+         */
+
 
 
 
