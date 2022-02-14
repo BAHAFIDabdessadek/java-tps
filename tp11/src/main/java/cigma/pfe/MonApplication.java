@@ -66,7 +66,7 @@ public class MonApplication {
         // Test5 => remove Facture
         ftr.remove(3);
 
-        // Test getAll Client after modify and remove
+        // Test getAll Facture after modify and remove
         ftr.getAll().stream().forEach(i-> System.out.println(i));
 
         // Find by Date
