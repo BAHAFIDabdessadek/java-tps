@@ -1,7 +1,6 @@
-package cigma.pfe;
+package cigma.pfe.repositories;
 
 import cigma.pfe.models.Client;
-import cigma.pfe.repositories.ClientRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,12 +9,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MockClients implements CommandLineRunner {
-    private static final Logger logger =
-            LoggerFactory.getLogger(MockClients.class);
+    private static final Logger logger = LoggerFactory.getLogger(MockClients.class);
     @Autowired
     private ClientRepository clientRepository;
     @Override
-    public void run(String... args) throws Exception { Client c1 = new Client("Omar");
+    public void run(String... args) throws Exception {
+        Client c1 = new Client("Omar");
         Client c2 = new Client("Said");
         Client c3 = new Client("Ahmed");
         Client c4 = new Client("Farah");
