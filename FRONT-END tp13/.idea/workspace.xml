@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="774ba633-654c-43df-ae6d-281b50f173eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../tp12-v1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp12-v1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp12-v1/src/main/java/cigma/pfe/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp12-v1/src/main/java/cigma/pfe/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp12-v1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp12-v1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp12-v1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp12-v1/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp12-v1/target/classes/cigma/pfe/controllers/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tp12-v1/target/classes/cigma/pfe/controllers/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp8/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tp8/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp8/src/main/java/cigma/pfe/MonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp8/src/main/java/cigma/pfe/MonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp8/target/classes/cigma/pfe/MonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tp8/target/classes/cigma/pfe/MonApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="269umWiHwqolm6liWJCMbWJr9tQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="774ba633-654c-43df-ae6d-281b50f173eb" name="Changes" comment="" />
+      <created>1646848284482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646848284482</updated>
+    </task>
+    <servers />
+  </component>
+</project>
