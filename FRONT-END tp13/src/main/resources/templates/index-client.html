@@ -44,7 +44,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <form action="#" th:action="@{/add-client}"
+            <form action="#" th:action="@{/add-or-update}"
                   th:object="${client}" method="post">
                 <div class="form-group">
                     <input type="text" th:field="*{id}" id="id"
@@ -57,8 +57,8 @@
                     <input type="text" th:field="*{name}" id="name"
                            placeholder="Name" class="form-control">
                 </div>
-                <button th:if="${client.id == 0}"  type="submit" class="btn btn-success">Add Client</button>
-                <button th:if="${client.id != 0}" type="submit" class="btn btn-success">Save Client</button>
+                <button th:if="${client.id == 0}"  type="submit" name="add" class="btn btn-success">Add Client</button>
+                <button th:if="${client.id != 0}" type="submit" name="update" class="btn btn-success">Save Client</button>
 
 
             </form>

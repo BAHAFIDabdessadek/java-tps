@@ -42,20 +42,30 @@ public class ClientController {
 
 
 
-    @PostMapping(value = {"/add-client"})
+    @PostMapping(value = {"/add-or-update"  } , params = "add" )
+
     public String Add(Model model ,@ModelAttribute("client") Client client)
          {
-            long id =  client.getId();
 
-            if (id==0){
                 restTemplate.postForObject(apiUrl+"/client/create",client,Client.class);
-            }else{
-                restTemplate.put(apiUrl+"/client/modify",client,Client.class);
 
-            }
              return "redirect:/clients";
 
          }
+
+
+    @PostMapping(value = {"/add-or-update"  } , params = "update" )
+
+    public String update(Model model ,@ModelAttribute("client") Client client)
+    {
+
+
+            restTemplate.put(apiUrl+"/client/modify",client,Client.class);
+
+
+        return "redirect:/clients";
+
+    }
 
     @GetMapping(value ={"/delete-client/{id}"})
     public String deleteClientById(Model model,@PathVariable long id){
