@@ -32,6 +32,8 @@ public class ClientController {
         return service.getAll();
     }
 
+
+
     public List<Client> Find(String name){
         return service.Find(name);
     }
