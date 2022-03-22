@@ -1,0 +1,17 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/pfe
+    username: root
+    password:
+
+  jpa:
+    show_sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
